@@ -1,16 +1,16 @@
 version: "3.2"
 
 services:
-#MariaDB Container
-  mariadb:
-    image: mariadb:10
-    container_name: mariadb
-    hostname: mariadb
-    volumes:
-      - ./mysql:/var/lib/mysql
-    env_file:
-      - ./mariadb.env
-    restart: always
+##MariaDB Container
+#  mariadb:
+#    image: mariadb:10
+#    container_name: mariadb
+#    hostname: mariadb
+#    volumes:
+#      - ./mysql:/var/lib/mysql
+#    env_file:
+#      - ./mariadb.env
+#    restart: always
 
 #GLPI Container
   glpi:
